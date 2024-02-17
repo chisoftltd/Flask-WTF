@@ -3,8 +3,9 @@ import os
 from flask import Flask, render_template
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
+from dotenv import load_dotenv
 import os
-
+load_dotenv()
 
 '''
 Red underlines? Install the required packages first: 
